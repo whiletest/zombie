@@ -1,0 +1,655 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="CAK47" Collapsed="true">
+    <Position X="5.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAgIAAAAAAAAAAAEEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AK47.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CArrow" Collapsed="true">
+    <Position X="0.5" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAABAAgAAAAAAA=</HashCode>
+      <FileName>arrow.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CAWP" Collapsed="true">
+    <Position X="10.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAAgAAAAAAAEAAAAEEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>awp.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CBed" Collapsed="true">
+    <Position X="34" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACQAAAAAAAgAAAAAAAAABAAAAAAAAAAQAAAABAAA=</HashCode>
+      <FileName>bed.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CBike" Collapsed="true">
+    <Position X="56.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAAAAgAAAAAAAAAAAAAAAAAAACAAAAABAAA=</HashCode>
+      <FileName>bike.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CBird" Collapsed="true">
+    <Position X="11.25" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAkAAYAAAgAAAAAAAAAAIAEAEAAAEABCwAAAQAA=</HashCode>
+      <FileName>bird.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CBow" Collapsed="true">
+    <Position X="17" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAgAAAAAAAAAAAAEEAAAAAAIAAAAAAAA=</HashCode>
+      <FileName>bow.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CBuiding" Collapsed="true">
+    <Position X="76.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAgAAAAAQAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>buiding.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CBullet" Collapsed="true">
+    <Position X="1.75" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAIASKCAAggAAAAE0oAAQAAEAICASCgAAAIAIAA=</HashCode>
+      <FileName>bullet.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CBulletSupply" Collapsed="true">
+    <Position X="4.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAIAIAggAgAACAAABAAAAAAAACAAAAAABAAA=</HashCode>
+      <FileName>BulletSupply.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CBus" Collapsed="true">
+    <Position X="52" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAgAAAAAAAAABAAAAAgAAAAAAAAABAAA=</HashCode>
+      <FileName>bus.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CBusSet" Collapsed="true">
+    <Position X="20.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAABAAgAAAAAAAQBAAABAAA=</HashCode>
+      <FileName>BusSet.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CButtonBKG" Collapsed="true">
+    <Position X="3.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAQBAAAAAAIAAIAAIAAAAAAEAIAACAAAEAAA=</HashCode>
+      <FileName>buttonBKG.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CButtonBKGEx" Collapsed="true">
+    <Position X="3.25" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAYIAAAIAAAIAAAAAAAAAAAAAAAAIQAAAAAA=</HashCode>
+      <FileName>buttonBKGEx.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CCabinet" Collapsed="true">
+    <Position X="45.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAABAAAAAAAAIAgAAAABAAI=</HashCode>
+      <FileName>cabinet.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CCar" Collapsed="true">
+    <Position X="55.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAIAAAAEAAEAAAAAAAAAAAAAAAAAQAAEA=</HashCode>
+      <FileName>car.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CClosestool" Collapsed="true">
+    <Position X="65.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAEgAAAAEEgAAQAAAIAABAAAAAAAAAAQAAAABAAA=</HashCode>
+      <FileName>closestool.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CCloud" Collapsed="true">
+    <Position X="79" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAAAgEAAAAAAAABAAgBAQAAAAAgAAQBAAM=</HashCode>
+      <FileName>cloud.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CCoin" Collapsed="true">
+    <Position X="83.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAIA=</HashCode>
+      <FileName>coin.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CCutDownTree" Collapsed="true">
+    <Position X="7" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAABAAAAAAAAAAAAEAABACA=</HashCode>
+      <FileName>CutDownTree.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CDead" Collapsed="true">
+    <Position X="10" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAFIAAQYEiQgGAEQAEcCQBwMWAICgAIAhQQFIAAEQ=</HashCode>
+      <FileName>dead.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CDeadMan" Collapsed="true">
+    <Position X="6.75" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAYAAAgAAAQECAAAAAAEAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DeadMan.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CDeadTree" Collapsed="true">
+    <Position X="27.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACgAAAAAAAAABAAAAAAAAAAAAAAABAAE=</HashCode>
+      <FileName>DeadTree.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CDEBullet" Collapsed="true">
+    <Position X="2.75" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAgAAAAAAAAAAAAAAAAAAAAAAAAAABAA=</HashCode>
+      <FileName>DEbullet.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CDesertEagle" Collapsed="true">
+    <Position X="12.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAIAAAAEEAAAAAAAAAEAAAAA=</HashCode>
+      <FileName>DesertEagle.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CDesk" Collapsed="true">
+    <Position X="61" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgACAAAAAAABAAIAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>desk.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CDisk" Collapsed="true">
+    <Position X="67.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgACAAAAAAABAAAgAAAAAAAAAAABAAA=</HashCode>
+      <FileName>disk.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CDog" Collapsed="true">
+    <Position X="13.5" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BgAABAAAgYIAAgAAAAAABgAAABEAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>dog.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CDoor" Collapsed="true">
+    <Position X="87" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BABAAAAAAIQAIAEAAACAAAQAAAACAAgEAAAAAwAIACA=</HashCode>
+      <FileName>door.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CFiveSeven" Collapsed="true">
+    <Position X="1.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAAAEEAAAAAAgAAAAAIAA=</HashCode>
+      <FileName>FiveSeven.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CFootball" Collapsed="true">
+    <Position X="11.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAABAAAAAAAABAAAAAABAgA=</HashCode>
+      <FileName>football.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CGameMachine" Collapsed="true">
+    <Position X="22.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAAAAgAEAAIAAAAAAAAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>gameMachine.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CGameMachineOperation" Collapsed="true">
+    <Position X="95" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAAAIAQCIAAACAAEAAAACEAAAAAAQAAAAAI=</HashCode>
+      <FileName>SelectBkg4.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CGrass" Collapsed="true">
+    <Position X="36.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAABACAAAAAQAAAAAAABAAA=</HashCode>
+      <FileName>grass.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CGround" Collapsed="true">
+    <Position X="47.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAAAAgABAAAAAAABAAAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>ground.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CHomeGate" Collapsed="true">
+    <Position X="70" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAEAAgAAAAAAAAABAAAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>HomeGate.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CHouse1" Collapsed="true">
+    <Position X="81.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAQAAACABAAAAAAAAAAEAAAIBAAA=</HashCode>
+      <FileName>house1.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CInitialSelectBKG" Collapsed="true">
+    <Position X="12.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAACAAAAAAAoAAAAABAAAAAIACAAAAAAAA=</HashCode>
+      <FileName>InitialSelectBKG.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CKey" Collapsed="true">
+    <Position X="9.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAAgACAAAAEAABAAAAAAQAIAAAABABAAE=</HashCode>
+      <FileName>key.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CLadder" Collapsed="true">
+    <Position X="13.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAEAAgAAAAACAAABAAAAAAAAAAQCAAABAAA=</HashCode>
+      <FileName>ladder.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CM4A1" Collapsed="true">
+    <Position X="8" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAgAAAAAAABAAAAEEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>m4a1.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CMap" Collapsed="true">
+    <Position X="96.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>kAIABAAIQAGAAEDZEEEAEAAAQCABAAAAAQBAAgABAAA=</HashCode>
+      <FileName>map.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CMask" Collapsed="true">
+    <Position X="38.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAEAAAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mask.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CMessiPaper" Collapsed="true">
+    <Position X="49.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAACAAgAAAAAAAAABAAAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>MessiPaper.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CMP5" Collapsed="true">
+    <Position X="14.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAAAgAAAAQAAAAAAAEEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mp5.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CPaper" Collapsed="true">
+    <Position X="72.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAQAQEAAEABAAAABAAAAAAAAAABAAA=</HashCode>
+      <FileName>paper.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CPlayer" Collapsed="true">
+    <Position X="98.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BsAGBFAIQoQCAEUAwEAEWABEhMAsRixgTACI0kYgBCQ=</HashCode>
+      <FileName>player.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRain" Collapsed="true">
+    <Position X="90.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAIAAAgAAAAAAAAAAAAAAAAAAABAAABAAAAA=</HashCode>
+      <FileName>rain.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRoadDirectLight" Collapsed="true">
+    <Position X="85.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAgAAAAAAAAAEAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>roadDirectLight.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRoadSign" Collapsed="true">
+    <Position X="16" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAEAAAAABAAAAAAIAAAAAAAABAAA=</HashCode>
+      <FileName>RoadSign.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRoomDoor" Collapsed="true">
+    <Position X="88" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAABAAAAAAIAAQAAAAABAAA=</HashCode>
+      <FileName>RoomDoor.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CSafeBox" Collapsed="true">
+    <Position X="29.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAEgAAAAAAAIABAAAAEAAUACAAAAABAAA=</HashCode>
+      <FileName>SafeBox.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CSceneObject" Collapsed="true">
+    <Position X="48.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACABAAAAAKAAAgAAAAAEREABAgBAAgBAAAQEQEIBAAQ=</HashCode>
+      <FileName>SceneObject.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CSelectBKG" Collapsed="true">
+    <Position X="7.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>A0AAIgEQAQAEgAAAAIAAoABAEgAAIQQAIAAABEAgAAA=</HashCode>
+      <FileName>SelectBKG.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CSelectBKG1" Collapsed="true">
+    <Position X="5.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAQAAAgAAAIAAAAAAAAAAAIAAABAAgAAA=</HashCode>
+      <FileName>SelectBkg1.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CSelectBKG2" Collapsed="true">
+    <Position X="7.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQEAwAAAAAAAIAAAAAAAAAAAIAAAAAAoAEA=</HashCode>
+      <FileName>SelectBkg2.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CSelectBKG3" Collapsed="true">
+    <Position X="10" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAQAAAAAAAIAAAACAAAAAAIAAAAAAgAAA=</HashCode>
+      <FileName>SelectBkg3.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CSelectBKG4" Collapsed="true">
+    <Position X="14.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAQABCCAAAEAApAAMACAgAAAAIIAABIAgCAA=</HashCode>
+      <FileName>SelectBkg4.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CSelectPlayerBagBkg" Collapsed="true">
+    <Position X="1" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAgAACARABgAIAAgAAMCAAAAAIAAAAogAAAAAggAA=</HashCode>
+      <FileName>SelectPlayerBagBkg.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CSmallCar" Collapsed="true">
+    <Position X="54.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAgAAAAAAAAABIAAAAAAAAAQAAAABAAA=</HashCode>
+      <FileName>SmallCar.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CSmallZombie" Collapsed="true">
+    <Position X="9" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAYAAAgAAACAAAAAAAAEAAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>smallzombie.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CSocket" Collapsed="true">
+    <Position X="31.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEAgAAQAEAAAAFAAAAEAAAAAYAAAABAAA=</HashCode>
+      <FileName>socket.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CSofa" Collapsed="true">
+    <Position X="40.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAACAAAAABAAAAAAAAAAQAAAARAAA=</HashCode>
+      <FileName>sofa.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CStage" Collapsed="true">
+    <Position X="100.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>kAAgAQEAIAChAACAEgACABQAQEAAAAAAEKgoA0YJAAA=</HashCode>
+      <FileName>stage.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CStick" Collapsed="true">
+    <Position X="63.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAABAAAAAAAAAAAAAQCBAAA=</HashCode>
+      <FileName>stick.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CTree" Collapsed="true">
+    <Position X="74.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAgABAAAAAAAAAAEAAAABAAA=</HashCode>
+      <FileName>tree.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CTruck" Collapsed="true">
+    <Position X="58.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAgAAAAAAAAAAAAAAAACAACAAAAABAAA=</HashCode>
+      <FileName>truck.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CTv" Collapsed="true">
+    <Position X="92.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAQAAEAAAAAAAkAAABAAAAABAAAAAAQAAEIAAAABIAA=</HashCode>
+      <FileName>tv.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CUSP" Collapsed="true">
+    <Position X="3.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAEAAFEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>usp.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CWall" Collapsed="true">
+    <Position X="18.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAAAAgAAAAAAAAABAAAAAAAQAAAAAAABEAA=</HashCode>
+      <FileName>wall.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CWashPot" Collapsed="true">
+    <Position X="25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ARAAAAAAAAAAAgAAAAAAAAABAAAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>WashPot.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CWeapon" Collapsed="true">
+    <Position X="9" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAwAQAIAgAiQCAWQAAEQAFEAAJACAh4WMIAAAA=</HashCode>
+      <FileName>weapon.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CWindow1" Collapsed="true">
+    <Position X="43" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAAAgAAAAAAAAABAAAAAQAAAAAAAAABAAA=</HashCode>
+      <FileName>window1.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CZombieView" Collapsed="true">
+    <Position X="102" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAiCgQIChHKgtBgUoEAgEW6kABIAAA4QCAmtgBBoQ=</HashCode>
+      <FileName>view.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="DOORPARAM" Collapsed="true">
+    <Position X="95" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAABAAAAAAAAAAAgAAAAAAAAAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>door.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="ROLLINFO" Collapsed="true">
+    <Position X="96.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAAAAAAAAEAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>SelectBkg4.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Enum Name="_bltfmt" Collapsed="true">
+    <Position X="95" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAACAAACAAAAAAAIAAAAAAAAAAAA=</HashCode>
+      <FileName>_bltfmt.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="_choice_name" Collapsed="true">
+    <Position X="96.75" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAACAAAaAAAAAAAIAAAAAAAAAAAgIAAAAAAA=</HashCode>
+      <FileName>SelectBkg4.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="_faceDirection" Collapsed="true">
+    <Position X="98.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAI=</HashCode>
+      <FileName>_faceDirection.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="_MoveDirection" Collapsed="true">
+    <Position X="100.25" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAIAEAAAAAAAAAAAAAAAAAAAAAAIEgAAAAAAAAAA=</HashCode>
+      <FileName>_MoveDirection.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="_MSG" Collapsed="true">
+    <Position X="102" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAwAEAAACAAIAAAAEAAABAQgACAAAAAAABACAiAIA=</HashCode>
+      <FileName>message.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="_objectIdentify" Collapsed="true">
+    <Position X="95" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ChIGIABiSFwGACoAQwALAAEaAGCAAgCJAAAIABJARQI=</HashCode>
+      <FileName>_objectIdentify.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="_OnObject" Collapsed="true">
+    <Position X="96.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAAEAABAAAAAAAAAAAgAABgAAABAAAAAAA=</HashCode>
+      <FileName>OnObject.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="_shootOn" Collapsed="true">
+    <Position X="98.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACAAAAAAAAAAAAAACAAAAAAAAAAAAAA=</HashCode>
+      <FileName>_shootOn.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="_sound_DEAD" Collapsed="true">
+    <Position X="100.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>_sound.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="_sound_DS" Collapsed="true">
+    <Position X="102" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAAAAAEAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>_sound.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="_sound_OBJ" Collapsed="true">
+    <Position X="95" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACCAAAAAAAAA=</HashCode>
+      <FileName>_sound.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="_sound_PLAYER" Collapsed="true">
+    <Position X="96.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAABAAAAAAAAAA=</HashCode>
+      <FileName>_sound.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="_sound_WFS" Collapsed="true">
+    <Position X="98.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAABAAAAAAAgAAAAAAAAAAAAAYAAAAAAAA=</HashCode>
+      <FileName>_sound.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="_sound_WPS" Collapsed="true">
+    <Position X="100.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>_sound.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="_stage" Collapsed="true">
+    <Position X="102" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>_stage.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="_TIMER" Collapsed="true">
+    <Position X="95" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAAAAAAAAAAAAAABAAIIAAAAAAAAgAA=</HashCode>
+      <FileName>timer.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="_weaponKind" Collapsed="true">
+    <Position X="96.75" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAQAA=</HashCode>
+      <FileName>_weaponKind.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Tahoma" Size="8.25" />
+</ClassDiagram>

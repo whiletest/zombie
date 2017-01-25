@@ -1,0 +1,16 @@
+物体名称 (提示作用,小写,不能有数字) 物体ID 位置x 位置y width heigth
+map的width,heigth必须 ground的width必须 其他物体可写0
+player,dead的坐标点都是图片下边缘正中间
+weapon的坐标点都是图片左下角
+door 的最后四位分别为：doorindex,key,tomapindex,doortype(图片id);width,height必须要
+car 的m_ikey属性设置在width中
+cloud 
+key 的m_iKeyIndex(大于0)属性设置在width中,m_bAbleToShootOn属性设置在height中 
+paper 的 m_iIndex 属性设置在width中;现有...6
+wall 的m_iType属性呢设置在width中;wall 放在当前地图所有背景物体的前面
+bulletsupply 的 m_iWeaponKind属性设置在width中;m_iBulletNum属性设置在height中
+deadman 的最后一位是：m_iIndex
+dog的最后一位是:m_bTied
+doorindextable:height设置为地图中门的个数,后面的数字分别是当前门对应门的索引(!!!将doorindextable放在最后)
+客户区大小默认为:right->1017 bottom->498
+不要用mp3格式的音效 不能释放内存

@@ -1,0 +1,25 @@
+#ifndef _messageH_
+#define _messageH_
+
+enum _MSG
+{
+ MSG_END_SHOW = 0,
+ MSG_NO_KEY,   
+ MSG_GET_KEY,
+ MSG_GET_BULLETSUPPLY,
+ MSG_NO_NEED_USE_CLOSESTOOL,
+ MSG_BED,
+ MSG_NO_POWER,
+ MSG_NO_DISK,
+ MSG_GET_DISK,
+ MSG_OPENED,
+ MSG_NO_WEAPON,
+ MSG_FOOTBALL,
+ MSG_GET_STICK,
+ MSG_GET_COIN,
+ MSG_MACHINE_BROKEN,
+ MSG_GET_MASK,
+ MSG_GET_OBJ //显示“获得物品”,用于简便显示
+};
+
+#endif

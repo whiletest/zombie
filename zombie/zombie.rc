@@ -1,0 +1,338 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#ifndef APSTUDIO_INVOKED
+#include "targetver.h"
+#endif
+#define APSTUDIO_HIDDEN_SYMBOLS
+#include "windows.h"
+#undef APSTUDIO_HIDDEN_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文(中华人民共和国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_ZOMBIE              ICON                    "zombie.ico"
+IDI_SMALL               ICON                    "small.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDC_ZOMBIE ACCELERATORS 
+BEGIN
+    "?",            IDM_ABOUT,              ASCII,  ALT
+    "/",            IDM_ABOUT,              ASCII,  ALT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 170, 62
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "关于 zombie"
+FONT 9, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    ICON            128,IDC_STATIC,14,14,21,20
+    LTEXT           "zombie，1.0 版",IDC_STATIC,42,14,114,8,SS_NOPREFIX
+    LTEXT           "Copyright (C) 2011",IDC_STATIC,42,26,114,8
+    DEFPUSHBUTTON   "确定",IDOK,113,41,50,14,WS_GROUP
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 163
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 55
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#ifndef APSTUDIO_INVOKED\r\n"
+    "#include ""targetver.h""\r\n"
+    "#endif\r\n"
+    "#define APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "#include ""windows.h""\r\n"
+    "#undef APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_PERSON1             BITMAP                  "D:\\vs2008_code\\windows\\zombie\\res\\person1.bmp"
+IDB_PERSON2             BITMAP                  "D:\\vs2008_code\\windows\\zombie\\res\\person2.bmp"
+IDB_PERSONLEFT2         BITMAP                  "D:\\vs2008_code\\windows\\zombie\\res\\personleft2.bmp"
+IDB_PERSONLEFT1         BITMAP                  "D:\\vs2008_code\\windows\\zombie\\res\\personleft1.bmp"
+IDB_HEADRIGHT           BITMAP                  "D:\\vs2008_code\\windows\\zombie\\res\\head\\headright.bmp"
+IDB_HEADLEFT            BITMAP                  "D:\\vs2008_code\\windows\\zombie\\res\\head\\headleft.bmp"
+IDB_TREE                BITMAP                  "D:\\vs2008_code\\windows\\zombie\\res\\object\\tree.bmp"
+IDB_CLOUD               BITMAP                  "D:\\vs2008_code\\windows\\zombie\\res\\object\\cloud.bmp"
+IDB_SMALLZOMBIEL1       BITMAP                  "D:\\vs2008_code\\windows\\zombie\\res\\smallzombie\\smallzombiel1.bmp"
+IDB_SMALLZOMBIEL2       BITMAP                  "D:\\vs2008_code\\windows\\zombie\\res\\smallzombie\\smallzombiel2.bmp"
+IDB_SMALLZOMBIER1       BITMAP                  "D:\\vs2008_code\\windows\\zombie\\res\\smallzombie\\smallzombier1.bmp"
+IDB_SMALLZOMBIER2       BITMAP                  "D:\\vs2008_code\\windows\\zombie\\res\\smallzombie\\smallzombier2.bmp"
+IDB_DESERTEAGLER        BITMAP                  "D:\\vs2008_code\\windows\\zombie\\res\\weapon\\DesertEagleRight.bmp"
+IDB_DESERTEAGLEL        BITMAP                  "D:\\vs2008_code\\windows\\zombie\\res\\weapon\\DesertEagleLeft.bmp"
+IDB_DEBULLET            BITMAP                  "D:\\vs2008_code\\windows\\zombie\\res\\weapon\\DEbullet.bmp"
+IDB_BLOODOUT            BITMAP                  "d:\\vs2008_code\\windows\\zombie\\res\\smallzombie\\bloodout.bmp"
+IDB_BLOODOUTR           BITMAP                  "D:\\vs2008_code\\windows\\zombie\\res\\smallzombie\\bloodoutr.bmp"
+IDB_BLOODOUTUP          BITMAP                  "D:\\vs2008_code\\windows\\zombie\\res\\head\\bloodoutup.bmp"
+IDB_INITIALIZE          BITMAP                  "D:\\vs2008_code\\windows\\zombie\\res\\initialize.bmp"
+IDB_START               BITMAP                  "D:\\vs2008_code\\windows\\zombie\\res\\start.bmp"
+IDB_STARTSMALL          BITMAP                  "D:\\vs2008_code\\windows\\zombie\\res\\start_small.bmp"
+IDB_OPERATESMALL        BITMAP                  "D:\\vs2008_code\\windows\\zombie\\res\\operate_small.bmp"
+IDB_OPERATE             BITMAP                  "D:\\vs2008_code\\windows\\zombie\\res\\operate.bmp"
+IDB_MSG_DESERTEAGLE     BITMAP                  "D:\\vs2008_code\\windows\\zombie\\res\\weapon\\DesertEagle.bmp"
+IDB_GRASS               BITMAP                  "D:\\vs2008_code\\windows\\zombie\\res\\object\\grass.bmp"
+IDB_SMALLZOMBIEDIEL     BITMAP                  "D:\\vs2008_code\\windows\\zombie\\res\\smallzombie\\small_zombie_diel.bmp"
+IDB_SMALLZOMBIEDIER     BITMAP                  "D:\\vs2008_code\\windows\\zombie\\res\\smallzombie\\small_zombie_dier.bmp"
+IDB_MSG_AK47            BITMAP                  "D:\\vs2008_code\\windows\\zombie\\res\\weapon\\ak47.bmp"
+IDB_AK47RIGHT           BITMAP                  "D:\\vs2008_code\\windows\\zombie\\res\\weapon\\ak47Right.bmp"
+IDB_AK47LEFT            BITMAP                  "D:\\vs2008_code\\windows\\zombie\\res\\weapon\\ak47Left.bmp"
+IDB_ROOMDOOR            BITMAP                  "D:\\vs2008_code\\windows\\zombie\\res\\object\\door.bmp"
+IDB_MSG_M4A1            BITMAP                  "D:\\vs2008_code\\windows\\zombie\\res\\weapon\\M4A1.bmp"
+IDB_M4A1RIGHT           BITMAP                  "D:\\vs2008_code\\windows\\zombie\\res\\weapon\\M4A1Right.bmp"
+IDB_M4A1LEFT            BITMAP                  "D:\\vs2008_code\\windows\\zombie\\res\\weapon\\M4A1Left.bmp"
+IDB_AWPRIGHT            BITMAP                  "D:\\vs2008_code\\windows\\zombie\\res\\weapon\\awpRight.bmp"
+IDB_MSG_AWP             BITMAP                  "D:\\vs2008_code\\windows\\zombie\\res\\weapon\\awp.bmp"
+IDB_AWPLEFT             BITMAP                  "D:\\vs2008_code\\windows\\zombie\\res\\weapon\\awpLeft.bmp"
+IDB_FIVESEVENRIGHT      BITMAP                  "D:\\vs2008_code\\windows\\zombie\\res\\weapon\\FiveSevenRight.bmp"
+IDB_MSG_FIVESEVEN       BITMAP                  "D:\\vs2008_code\\windows\\zombie\\res\\weapon\\FiveSeven.bmp"
+IDB_FIVESEVENLEFT       BITMAP                  "D:\\vs2008_code\\windows\\zombie\\res\\weapon\\FiveSevenLeft.bmp"
+IDB_USPRIGHT            BITMAP                  "D:\\vs2008_code\\windows\\zombie\\res\\weapon\\uspRight.bmp"
+IDB_MSG_USP             BITMAP                  "D:\\vs2008_code\\windows\\zombie\\res\\weapon\\usp.bmp"
+IDB_USPLEFT             BITMAP                  "D:\\vs2008_code\\windows\\zombie\\res\\weapon\\uspLeft.bmp"
+IDB_MP5RIGHT            BITMAP                  "D:\\vs2008_code\\windows\\zombie\\res\\weapon\\MP5Right.bmp"
+IDB_MSG_MP5             BITMAP                  "D:\\vs2008_code\\windows\\zombie\\res\\weapon\\MP5.bmp"
+IDB_MP5LEFT             BITMAP                  "D:\\vs2008_code\\windows\\zombie\\res\\weapon\\MP5Left.bmp"
+IDB_CUTDOWNTREE         BITMAP                  "D:\\vs2008_code\\windows\\zombie\\res\\object\\CutDownTree.bmp"
+IDB_DEADTREE            BITMAP                  "D:\\vs2008_code\\windows\\zombie\\res\\object\\DeadTree.bmp"
+IDB_SMALLCAR            BITMAP                  "D:\\vs2008_code\\windows\\zombie\\res\\object\\smallcar.bmp"
+IDB_KEY                 BITMAP                  "D:\\vs2008_code\\windows\\zombie\\res\\object\\key.bmp"
+IDB_BIRDFLYR            BITMAP                  "D:\\vs2008_code\\windows\\zombie\\res\\bird\\BirdFlyR.bmp"
+IDB_BIRDONTREE          BITMAP                  "D:\\vs2008_code\\windows\\zombie\\res\\bird\\bird.bmp"
+IDB_BIRDFLYR1           BITMAP                  "D:\\vs2008_code\\windows\\zombie\\res\\bird\\BirdFlyR1.bmp"
+IDB_BIRDFLYL            BITMAP                  "D:\\vs2008_code\\windows\\zombie\\res\\bird\\BirdFlyL.bmp"
+IDB_BIRDFLYL1           BITMAP                  "D:\\vs2008_code\\windows\\zombie\\res\\bird\\BirdFlyL1.bmp"
+IDB_DEADBIRD            BITMAP                  "D:\\vs2008_code\\windows\\zombie\\res\\bird\\DeadBird.bmp"
+IDB_DEADBIRDR           BITMAP                  "D:\\vs2008_code\\windows\\zombie\\res\\bird\\DeadBirdR.bmp"
+IDB_ARROW               BITMAP                  "d:\\vs2008_code\\windows\\zombie\\res\\weapon\\arrow.bmp"
+IDB_BOW                 BITMAP                  "D:\\vs2008_code\\windows\\zombie\\res\\weapon\\bow.bmp"
+IDB_MSG_BOW             BITMAP                  "D:\\vs2008_code\\windows\\zombie\\res\\weapon\\MsgBow.bmp"
+IDB_PAPER               BITMAP                  "D:\\vs2008_code\\windows\\zombie\\res\\object\\paper.bmp"
+IDB_SELECTBKG1          BITMAP                  "D:\\vs2008_code\\windows\\zombie\\res\\SlectBKG\\SelectBKG1.bmp"
+IDB_OKSMALL             BITMAP                  "D:\\vs2008_code\\windows\\zombie\\res\\SlectBKG\\oksmall.bmp"
+IDB_OK                  BITMAP                  "D:\\vs2008_code\\windows\\zombie\\res\\SlectBKG\\ok.bmp"
+IDB_HOUSE1              BITMAP                  "D:\\vs2008_code\\windows\\zombie\\res\\object\\house1.bmp"
+IDB_SELECTBKG2          BITMAP                  "D:\\vs2008_code\\windows\\zombie\\res\\SlectBKG\\SelectBkg2.bmp"
+IDB_WINDOW1             BITMAP                  "D:\\vs2008_code\\windows\\zombie\\res\\object\\window1.bmp"
+IDB_DEADMAN1            BITMAP                  "D:\\vs2008_code\\windows\\zombie\\res\\deadman\\deadman1.bmp"
+IDB_CABINETOPEN         BITMAP                  "D:\\vs2008_code\\windows\\zombie\\res\\object\\CabinetOpen.bmp"
+IDB_CABINETCLOSE        BITMAP                  "D:\\vs2008_code\\windows\\zombie\\res\\object\\CabinetClose.bmp"
+IDB_SELECTBKG3          BITMAP                  "D:\\vs2008_code\\windows\\zombie\\res\\SlectBKG\\SelectBkg3.bmp"
+IDB_SELECTBKG4          BITMAP                  "D:\\vs2008_code\\windows\\zombie\\res\\SlectBKG\\SelectBkg4.bmp"
+IDB_OPERATEBKG          BITMAP                  "D:\\vs2008_code\\windows\\zombie\\res\\SlectBKG\\operate.bmp"
+IDB_SELECTBKG5          BITMAP                  "D:\\vs2008_code\\windows\\zombie\\res\\SlectBKG\\SelectBkg5.bmp"
+IDB_BULLETSUPPLY        BITMAP                  "D:\\vs2008_code\\windows\\zombie\\res\\object\\BulletSupply.bmp"
+IDB_ROADSIGN            BITMAP                  "res\\object\\RoadSign.bmp"
+IDB_BUS                 BITMAP                  "res\\object\\bus.bmp"
+IDB_BUSDOOR             BITMAP                  "res\\object\\BusDoor.bmp"
+IDB_BUSFRONTDOOR        BITMAP                  "res\\object\\BusFrontDoor.bmp"
+IDB_CLOSESTOOL          BITMAP                  "res\\object\\closestool.bmp"
+IDB_BED                 BITMAP                  "res\\object\\bed.bmp"
+IDB_TV                  BITMAP                  "res\\object\\tv.bmp"
+IDB_SOCKET1             BITMAP                  "res\\object\\socket.bmp"
+IDB_SOCKET2             BITMAP                  "res\\object\\socket2.bmp"
+IDB_DISK                BITMAP                  "res\\object\\disk.bmp"
+IDB_CALENDAR            BITMAP                  "res\\object\\calendar.bmp"
+IDB_PAPERBKG1           BITMAP                  "res\\PaperBkg\\PaperBkg.bmp"
+IDB_WASHPOT             BITMAP                  "res\\object\\WashPot.bmp"
+IDB_SAFEBOX             BITMAP                  "res\\object\\SafeBox.bmp"
+IDB_SAFEBOXBKG          BITMAP                  "res\\SafeBoxBkg\\SafeBoxBkg.bmp"
+IDB_NUM9                BITMAP                  "res\\SafeBoxBkg\\num\\SecretNum9.bmp"
+IDB_NUM0                BITMAP                  "res\\SafeBoxBkg\\num\\SecretNum0.bmp"
+IDB_NUM1                BITMAP                  "res\\SafeBoxBkg\\num\\SecretNum1.bmp"
+IDB_NUM2                BITMAP                  "res\\SafeBoxBkg\\num\\SecretNum2.bmp"
+IDB_NUM3                BITMAP                  "res\\SafeBoxBkg\\num\\SecretNum3.bmp"
+IDB_NUM4                BITMAP                  "res\\SafeBoxBkg\\num\\SecretNum4.bmp"
+IDB_NUM5                BITMAP                  "res\\SafeBoxBkg\\num\\SecretNum5.bmp"
+IDB_NUM6                BITMAP                  "res\\SafeBoxBkg\\num\\SecretNum6.bmp"
+IDB_NUM7                BITMAP                  "res\\SafeBoxBkg\\num\\SecretNum7.bmp"
+IDB_NUM8                BITMAP                  "res\\SafeBoxBkg\\num\\SecretNum8.bmp"
+IDB_SAFEBOXOKSMALL      BITMAP                  "res\\SafeBoxBkg\\SafeBoxOkSmall.bmp"
+IDB_SAFEBOXOK           BITMAP                  "res\\SafeBoxBkg\\SafeBoxOk.bmp"
+IDB_SOFA                BITMAP                  "res\\object\\sofa.bmp"
+IDB_DESK                BITMAP                  "res\\object\\desk.bmp"
+IDB_FOOTBALL            BITMAP                  "res\\object\\football.bmp"
+IDB_MESSIPAPER          BITMAP                  "res\\object\\MessiPaper.bmp"
+IDB_MESSIBKG            BITMAP                  "res\\PaperBkg\\MessiBkg.bmp"
+IDB_HOME                BITMAP                  "res\\object\\home.bmp"
+IDB_MENTALDOOR          BITMAP                  "res\\object\\MentalDoor.bmp"
+IDB_DOGRIGHT7           BITMAP                  "res\\dog\\dogr7.bmp"
+IDB_DOGRIGHT1           BITMAP                  "res\\dog\\dogr1.bmp"
+IDB_DOGRIGHT2           BITMAP                  "res\\dog\\dogr2.bmp"
+IDB_DOGRIGHT3           BITMAP                  "res\\dog\\dogr3.bmp"
+IDB_DOGRIGHT4           BITMAP                  "res\\dog\\dogr4.bmp"
+IDB_DOGRIGHT5           BITMAP                  "res\\dog\\dogr5.bmp"
+IDB_DOGRIGHT6           BITMAP                  "res\\dog\\dogr6.bmp"
+IDB_DOGLEFT7            BITMAP                  "res\\dog\\dogl7.bmp"
+IDB_DOGLEFT1            BITMAP                  "res\\dog\\dogl1.bmp"
+IDB_DOGLEFT2            BITMAP                  "res\\dog\\dogl2.bmp"
+IDB_DOGLEFT3            BITMAP                  "res\\dog\\dogl3.bmp"
+IDB_DOGLEFT4            BITMAP                  "res\\dog\\dogl4.bmp"
+IDB_DOGLEFT5            BITMAP                  "res\\dog\\dogl5.bmp"
+IDB_DOGLEFT6            BITMAP                  "res\\dog\\dogl6.bmp"
+IDB_PASSSTAGE1BKG       BITMAP                  "res\\PassStageBkg\\PassStage1Bkg.bmp"
+IDB_PAPERBKG2           BITMAP                  "res\\PaperBkg\\PaperBkg2.bmp"
+IDB_PAPERBKG3           BITMAP                  "res\\PaperBkg\\PaperBkg3.bmp"
+IDB_STICK               BITMAP                  "res\\object\\stick.bmp"
+IDB_CLOSESTOOLBKG       BITMAP                  "res\\PaperBkg\\ClosestoolBkg.bmp"
+IDB_DOGDEADR            BITMAP                  "res\\dog\\DogDeadr.bmp"
+IDB_DOGDEADL            BITMAP                  "res\\dog\\DogDeadl1.bmp"
+IDB_TVSNOWBKG2          BITMAP                  "res\\PaperBkg\\TvSnowBkg2.bmp"
+IDB_TVSNOWBKG1          BITMAP                  "res\\PaperBkg\\TvSnowBkg.bmp"
+IDB_BUSSET              BITMAP                  "res\\object\\BusSet.bmp"
+IDB_TRUCK               BITMAP                  "res\\object\\truck.bmp"
+IDB_TRUCK1              BITMAP                  "res\\object\\truck1.bmp"
+IDB_BIKE                BITMAP                  "res\\object\\bike.bmp"
+IDB_BUIDING             BITMAP                  "res\\object\\buiding.bmp"
+IDB_GAMEMACHINE         BITMAP                  "D:\\vs2008_code\\windows\\zombie\\res\\object\\GameMachine.bmp"
+IDB_GAMEMACHINEBKG      BITMAP                  "res\\gameMachineBkg\\gameMachineBkg.bmp"
+IDB_SMALLEXITBKG        BITMAP                  "res\\buttonBkg\\smallExit.bmp"
+IDB_BIGEXITBKG          BITMAP                  "res\\buttonBkg\\bigExit.bmp"
+IDB_SMALLINSERTCOIN     BITMAP                  "res\\buttonBkg\\smallInsertCoin.bmp"
+IDB_BIGINSERTCOIN       BITMAP                  "res\\buttonBkg\\bigInsertCoin.bmp"
+IDB_BTNNOTON            BITMAP                  "res\\buttonBkg\\BtnNotOn.bmp"
+IDB_BTNON               BITMAP                  "res\\buttonBkg\\BtnOn.bmp"
+IDB_COIN                BITMAP                  "res\\object\\coin.bmp"
+IDB_ROADDIRECTLIGHT     BITMAP                  "res\\object\\roadDirectLight.bmp"
+IDB_ROADDIRECTLIGHT1    BITMAP                  "res\\object\\roadDirectLight1.bmp"
+IDB_GAMEROOM            BITMAP                  "res\\object\\gameRoom.bmp"
+IDB_CLOUD1              BITMAP                  "D:\\vs2008_code\\windows\\zombie\\res\\object\\cloud1.bmp"
+IDB_LADDER              BITMAP                  "res\\object\\stage.bmp"
+IDB_GAMEMACHINE2        BITMAP                  "res\\object\\gameMachine2.bmp"
+IDB_GAMEMACHINE1        BITMAP                  "res\\object\\gameMachine1.bmp"
+IDB_PLAYERBAGBKG        BITMAP                  "res\\PaperBkg\\playerBagBkg.bmp"
+IDB_EQUIPSMALL          BITMAP                  "res\\buttonBkg\\smallEquip.bmp"
+IDB_DROPBIG             BITMAP                  "res\\buttonBkg\\bigDrop.bmp"
+IDB_EQUIPBIG            BITMAP                  "res\\buttonBkg\\bigEquip.bmp"
+IDB_DROPSMALL           BITMAP                  "res\\buttonBkg\\smallDrop.bmp"
+IDB_BAGBKGNOTON         BITMAP                  "res\\buttonBkg\\playerBagBkgBtnNotOn.bmp"
+IDB_BAGBKGON            BITMAP                  "res\\buttonBkg\\playerBagBkgBtnOn.bmp"
+IDB_MASK1               BITMAP                  "res\\mask\\mask1.bmp"
+IDB_MASK2               BITMAP                  "res\\mask\\mask2.bmp"
+IDB_MASKROOM            BITMAP                  "res\\object\\maskRoom.bmp"
+IDB_MP5BKG              BITMAP                  "res\\PaperBkg\\mp5Bkg.bmp"
+IDB_GETSMALL            BITMAP                  "res\\buttonBkg\\smallGet.bmp"
+IDB_GETBIG              BITMAP                  "res\\buttonBkg\\bigGet.bmp"
+IDB_BLOODSUPPLY1        BITMAP                  "res\\object\\bloodSupply1.bmp"
+IDB_HUNTERCLIMBL1       BITMAP                  "res\\hunter\\hunterClimb1.bmp"
+IDB_HUNTERCLIMBL2       BITMAP                  "res\\hunter\\hunterClimb2.bmp"
+IDB_HUNTERCLIMBR2       BITMAP                  "res\\hunter\\hunterClimbR2.bmp"
+IDB_HUNTERCLIMBR1       BITMAP                  "res\\hunter\\hunterClimbR1.bmp"
+IDB_HUNTERDIEDR         BITMAP                  "res\\hunter\\hunterDiedR.bmp"
+IDB_SPIDER_S1           BITMAP                  "res\\spider\\smallSpider.bmp"
+IDB_SPIDER_S2           BITMAP                  "res\\spider\\smallSpider2.bmp"
+IDB_SPIDER_SD           BITMAP                  "res\\spider\\smallSpiderDead.bmp"
+IDB_SPIDER_B            BITMAP                  "res\\spider\\bigSipder.bmp"
+IDB_SPIDER_B_GR         BITMAP                  "res\\spider\\bigSipderGR.bmp"
+IDB_SPIDER_B_GL         BITMAP                  "res\\spider\\bigSipderGL.bmp"
+IDB_BIGSPIDERDEAD       BITMAP                  "res\\spider\\bigSipderDead.bmp"
+IDB_WEAPONROOM          BITMAP                  "res\\object\\weaponRoom.bmp"
+IDB_WEAPONSHELF         BITMAP                  "res\\object\\weaponShelf.bmp"
+IDB_WINDOW2             BITMAP                  "res\\object\\window2.bmp"
+IDB_DOOR1               BITMAP                  "res\\object\\door1.bmp"
+IDB_WINDOWCRACK         BITMAP                  "res\\object\\window3.bmp"
+IDB_WINDOWBROKEN        BITMAP                  "res\\object\\window3_broken.bmp"
+IDB_SPIDERBLOOD         BITMAP                  "res\\object\\spiderBlood.bmp"
+IDB_STAGE3_PAPER1       BITMAP                  "res\\PaperBkg\\stage3_Paper1.bmp"
+IDB_STAGE3_PAPER2       BITMAP                  "res\\PaperBkg\\stage3_Paper2.bmp"
+IDB_PASSSTAGE3BKG       BITMAP                  "res\\PassStageBkg\\passStage3BKG.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDS_APP_TITLE           "zombie"
+    IDC_ZOMBIE              "ZOMBIE"
+END
+
+#endif    // 中文(中华人民共和国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
