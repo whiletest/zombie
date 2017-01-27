@@ -4,7 +4,7 @@
 extern std::ifstream& operator >> (std::ifstream &infile,DOORPARAM &DoorParam);
 extern std::ifstream &operator >> (std::ifstream &in,BLOODSUPPLYPARAM &bsParam);
 
-CStage::CStage():m_iStage(2),m_iMapNodeNum(-1),m_iCurIndex(0),m_iDoorNum(0)
+CStage::CStage():m_iStage(0),m_iMapNodeNum(-1),m_iCurIndex(0),m_iDoorNum(0)
 {
 }
 
@@ -165,6 +165,13 @@ bool CStage::InitializeStage(CPlayer &player,POINT &ptClientOrgOnMap)
 		case OBJECT_MASK1:
 		case OBJECT_MASK2:
 			CreateSceneObject(id,ptPos,iWidth,iHeigth,pVoid);
+			break;
+		case OBJECT_LUADEF:
+			{
+				char objname[32];
+				infile.getline(objname, ' ');
+				CreateSceneObject(id,ptPos,iWidth,iHeigth,(void*)(objname+1));
+			}
 			break;
 		case OBJECT_BLOODSUPPLY:
 			{
@@ -597,6 +604,10 @@ void CStage::CreateSceneObject(int id,POINT &ptPos,int iWidth,int iHeigth,LPVOID
 		((CDoor*)pSceneObj)->SetKey(DoorParam.iKey);
 		((CDoor*)pSceneObj)->SetMapIndexTo(DoorParam.iToMapIndex);
 		((CDoor*)pSceneObj)->SetDoorType(DoorParam.iDoorType);
+		break;
+	case OBJECT_LUADEF:
+		pSceneObj = new CLuaDefObj((char*)pVoid, iWidth, iHeigth);
+		pSceneObj->SetPosition(ptPos);
 		break;
 	default:
 		break;

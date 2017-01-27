@@ -60,7 +60,9 @@
 			/>
 			<Tool
 				Name="VCLinkerTool"
+				AdditionalDependencies="lua51.lib"
 				LinkIncremental="2"
+				AdditionalLibraryDirectories="lib"
 				GenerateDebugInformation="true"
 				SubSystem="2"
 				TargetMachine="1"
@@ -133,7 +135,9 @@
 			/>
 			<Tool
 				Name="VCLinkerTool"
+				AdditionalDependencies="lua51.lib"
 				LinkIncremental="1"
+				AdditionalLibraryDirectories="lib"
 				GenerateDebugInformation="true"
 				SubSystem="2"
 				OptimizeReferences="2"
@@ -341,6 +345,10 @@
 			</File>
 			<File
 				RelativePath=".\ladderEx.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\LuaDefObj.cpp"
 				>
 			</File>
 			<File
@@ -735,6 +743,10 @@
 			</File>
 			<File
 				RelativePath=".\ladderEx.h"
+				>
+			</File>
+			<File
+				RelativePath=".\LuaDefObj.h"
 				>
 			</File>
 			<File
@@ -1376,11 +1388,11 @@
 				>
 			</File>
 			<File
-				RelativePath="..\res\SlectBKG\operate.bmp"
+				RelativePath="..\res\operate.bmp"
 				>
 			</File>
 			<File
-				RelativePath="..\res\operate.bmp"
+				RelativePath="..\res\SlectBKG\operate.bmp"
 				>
 			</File>
 			<File

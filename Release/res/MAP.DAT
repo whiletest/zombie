@@ -23,7 +23,7 @@ ground 10 0 620 210 0
 roomdoor 14 10 548 40 72 1 0 0 169
 disk 31 0 0 0 0
 closestool 27 155 583 0 0
-washpot 32 65 580 0 0
+luaobj 58 65 580 0 0 washpot
 
 //¿ÍÌü Ë÷Òý=2
 map 0 0 0 1017 700

@@ -144,3 +144,4 @@
 #include "mask.h"
 #include "bloodSupply.h"
 #include "spiderBlood.h"
+#include "LuaDefObj.h"
